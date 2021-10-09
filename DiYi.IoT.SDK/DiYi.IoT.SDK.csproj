@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Mqtt\**" />
+    <EmbeddedResource Remove="Mqtt\**" />
+    <None Remove="Mqtt\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Diagnostics\ConsumerExecutorDescriptor.cs" />
+    <Compile Remove="Internal\IConsumerServiceSelector.Default.cs" />
+    <Compile Remove="Processor\IDispatcher.Default.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JetBrains.Annotations" Version="2020.3.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="5.0.0" />
+    <PackageReference Include="MQTTnet" Version="3.0.13" />
+    <PackageReference Include="NewLife.Core" Version="8.10.2021.101" />
+    <PackageReference Include="NewLife.Redis" Version="3.8.2021.101" />
+    <PackageReference Include="System.Diagnostics.DiagnosticSource" Version="5.0.0" />
+    <PackageReference Include="System.Text.Json" Version="5.0.1" />
+    <PackageReference Include="System.Threading.Channels" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>

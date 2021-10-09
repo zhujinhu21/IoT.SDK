@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiYi.IoT.SDK", "DiYi.IoT.SDK\DiYi.IoT.SDK.csproj", "{DC384EB7-4062-4917-A182-A56CADD1759C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiYi.IoT.SDK.Test", "DiYi.IoT.SDK.Test\DiYi.IoT.SDK.Test.csproj", "{53EA7921-530D-4E42-8848-BBD2A8B2FA53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiYi.IoT.SDK.Mqtt", "DiYi.IoT.SDK.Mqtt\DiYi.IoT.SDK.Mqtt.csproj", "{151453DA-762C-4C3C-91AF-A835E494A744}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample", "Sample", "{C633EA7C-867C-48DB-AF81-0CE1855555B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiYi.IoT.Sample", "DiYi.IoT.Sample\DiYi.IoT.Sample.csproj", "{1DC2E067-08FF-41E2-A1E1-BD1CDCA147CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC384EB7-4062-4917-A182-A56CADD1759C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC384EB7-4062-4917-A182-A56CADD1759C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC384EB7-4062-4917-A182-A56CADD1759C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC384EB7-4062-4917-A182-A56CADD1759C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53EA7921-530D-4E42-8848-BBD2A8B2FA53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53EA7921-530D-4E42-8848-BBD2A8B2FA53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53EA7921-530D-4E42-8848-BBD2A8B2FA53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53EA7921-530D-4E42-8848-BBD2A8B2FA53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{151453DA-762C-4C3C-91AF-A835E494A744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{151453DA-762C-4C3C-91AF-A835E494A744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{151453DA-762C-4C3C-91AF-A835E494A744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{151453DA-762C-4C3C-91AF-A835E494A744}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DC2E067-08FF-41E2-A1E1-BD1CDCA147CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DC2E067-08FF-41E2-A1E1-BD1CDCA147CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DC2E067-08FF-41E2-A1E1-BD1CDCA147CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DC2E067-08FF-41E2-A1E1-BD1CDCA147CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1DC2E067-08FF-41E2-A1E1-BD1CDCA147CE} = {C633EA7C-867C-48DB-AF81-0CE1855555B6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25E021AC-CE89-4570-9BDB-9BF5AD2E206C}
+	EndGlobalSection
+EndGlobal
